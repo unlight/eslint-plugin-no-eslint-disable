@@ -46,6 +46,9 @@ module.exports = {
                 require('tslint-sonarts/tslint-sonarts.json').rules,
                 {
                     'no-use-before-declare': true,
+                    'strict-boolean-expressions': false,
+                    'no-implicit-dependencies': false,
+                    'export-name': false,
                     'member-access': false,
                     'ordered-imports': false,
                     'quotemark': false,

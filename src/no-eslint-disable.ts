@@ -17,17 +17,15 @@ function create(context: Rule.RuleContext): Rule.RuleListener {
     return {};
 }
 
-function match(comment: ESTree.Comment): any {
-    const match = disableRegex.exec(comment.value);
-    if (match) {
-        const [matched] = match;
+function match(comment: ESTree.Comment): Rule.ReportDescriptor | undefined {
+    if (disableRegex.test(comment.value)) {
         return {
             messageId: 'message',
+            data: <any>comment.loc.start, // eslint-disable-line tslint/config
             loc: {
                 line: 0,
                 column: 0,
             },
-            data: comment.loc.start,
         };
     }
 }
