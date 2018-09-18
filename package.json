@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-eslint-disable",
-  "version": "0.0.0-dev",
+  "version": "1.0.0",
   "license": "MIT",
   "description": "",
   "main": "dist/index.js",
