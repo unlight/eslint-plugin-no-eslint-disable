@@ -1,9 +1,9 @@
-node-package-starter
-===
-```
-git clone https://github.com/unlight/node-package-starter
-```
+# eslint-plugin-no-eslint-disable
+Disallow disable rules by `eslint-disable` comment.
 
-CHANGELOG
+## RULE
+`no-eslint-disable/no-eslint-disable`
+
+## CHANGELOG
 ---
 See [CHANGELOG.md](CHANGELOG.md)
