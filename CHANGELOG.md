@@ -1,3 +1,8 @@
+## <small>1.0.1 (2018-09-18)</small>
+
+* fix(package): Added keywords ([fdfee0f](https://github.com/unlight/eslint-plugin-no-eslint-disable/commit/fdfee0f))
+* docs: Tiny cleanup ([a8799bc](https://github.com/unlight/eslint-plugin-no-eslint-disable/commit/a8799bc))
+
 ## 1.0.0 (2018-09-18)
 
 * fix(lint): Fixed lint warnings ([f7fa8fd](https://github.com/unlight/eslint-plugin-no-eslint-disable/commit/f7fa8fd))
