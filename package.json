@@ -61,7 +61,10 @@
     "type": "git",
     "url": "https://github.com/unlight/eslint-plugin-no-eslint-disable.git"
   },
-  "keywords": [],
+  "keywords": [
+    "eslintplugin",
+    "eslint-plugin"
+  ],
   "nyc": {
     "include": [
       "src/**/*.ts",
