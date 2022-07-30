@@ -1,3 +1,14 @@
+## [2.0.0](https://github.com/unlight/eslint-plugin-no-eslint-disable/compare/v1.0.1...v2.0.0) (2022-07-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* Update to ESLint 8
+
+### Miscellaneous Chores
+
+* Update to ESLint 8 ([6f7c60d](https://github.com/unlight/eslint-plugin-no-eslint-disable/commit/6f7c60d624df94f95dad1ba8636b3c7f5501c956))
+
 ## <small>1.0.1 (2018-09-18)</small>
 
 * fix(package): Added keywords ([fdfee0f](https://github.com/unlight/eslint-plugin-no-eslint-disable/commit/fdfee0f))
