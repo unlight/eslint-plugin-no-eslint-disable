@@ -1,8 +1,11 @@
 # eslint-plugin-no-eslint-disable
+
 Disallow disable rules by `eslint-disable` comment.
 
-## RULE ID
-`no-eslint-disable/no-eslint-disable` 
+## Rules
 
-## CHANGELOG
-See [CHANGELOG.md](CHANGELOG.md)
+`no-eslint-disable/no-eslint-disable`
+
+## License
+
+[MIT License](https://opensource.org/licenses/MIT) (c) 2022

@@ -1,24 +1,30 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "ts-node": {
+    "swc": false,
+    "transpileOnly": true
+  },
   "compilerOptions": {
-    "target": "es2015",
+    "target": "es2020",
     "module": "commonjs",
     "moduleResolution": "node",
     "importHelpers": true,
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitAny": false,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "declaration": false,
     "outDir": "dist",
     "pretty": true,
+    "esModuleInterop": true,
     "removeComments": false,
     "sourceMap": true,
-    "lib": [
-      "esnext"
-    ]
+    "declaration": true,
+    "declarationMap": false,
+    "skipLibCheck": true,
+    "lib": ["esnext"],
+    "paths": {},
+    "plugins": []
   },
-  "include": [
-    "src/**/*.ts"
-  ],
-  "exclude": [
-    "src/**/*.spec.ts"
-  ]
+  "include": ["src"]
 }

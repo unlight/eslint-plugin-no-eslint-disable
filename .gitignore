@@ -2,8 +2,8 @@
 /.idea
 /.awcache
 /.vscode
-/.nyc_output
 *.log
 ~*
 /dist/
 /dist_*
+/coverage/
