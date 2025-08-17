@@ -11,7 +11,7 @@ npm i -D eslint-plugin-no-eslint-disable
 ```js
 // eslint.config.js
 
-import noEslintDisable from 'eslint-plugin-no-eslint-disable';
+import * as noEslintDisable from 'eslint-plugin-no-eslint-disable';
 
 export default [
   {

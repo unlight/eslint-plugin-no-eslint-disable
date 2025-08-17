@@ -1,9 +1,9 @@
-/node_modules
-/.idea
-/.awcache
-/.vscode
+node_modules
+.idea
+.awcache
+.vscode
 *.log
 ~*
-/dist/
-/dist_*
-/coverage/
+dist
+dist_*
+coverage
