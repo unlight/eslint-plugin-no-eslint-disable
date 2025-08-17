@@ -1,3 +1,9 @@
+## [3.0.1](https://github.com/unlight/eslint-plugin-no-eslint-disable/compare/v3.0.0...v3.0.1) (2025-08-17)
+
+### Bug Fixes
+
+* Fix `release.config.mjs` ([23ddb80](https://github.com/unlight/eslint-plugin-no-eslint-disable/commit/23ddb80f07992db4c7f14e0a2fd22ad523df9df1))
+
 ## [3.0.0](https://github.com/unlight/eslint-plugin-no-eslint-disable/compare/v2.0.0...v3.0.0) (2025-08-17)
 
 ### ⚠ BREAKING CHANGES
