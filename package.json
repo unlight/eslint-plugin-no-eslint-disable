@@ -1,9 +1,12 @@
 {
   "name": "eslint-plugin-no-eslint-disable",
-  "version": "3.0.0",
+  "version": "0.0.0-dev",
   "license": "MIT",
   "description": "Disallow disable rules by `eslint-disable` comment",
-  "keywords": ["eslintplugin", "eslint-plugin"],
+  "keywords": [
+    "eslintplugin",
+    "eslint-plugin"
+  ],
   "type": "module",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -44,6 +47,7 @@
     "conventional-changelog-conventionalcommits": "^9.1.0",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "9",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-only-warn": "^1.1.0",
     "eslint-plugin-perfectionist": "^4.15.0",
     "eslint-plugin-prettier": "^5.5.4",

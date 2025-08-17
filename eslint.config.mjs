@@ -3,9 +3,9 @@ import 'eslint-plugin-only-warn';
 import globals from 'globals';
 import pluginJs from '@eslint/js';
 import tseslint from 'typescript-eslint';
-import prettier from 'eslint-plugin-prettier/recommended';
 import unicorn from 'eslint-plugin-unicorn';
 import perfectionist from 'eslint-plugin-perfectionist';
+import prettier from 'eslint-config-prettier/flat';
 
 /** @type {import('@typescript-eslint/utils').TSESLint.FlatConfig.ConfigFile} */
 export default [
@@ -18,8 +18,8 @@ export default [
       'dist/',
       'coverage/',
       '@generated/**',
-      '*.config.[cm]js',
-      '.*rc.js',
+      'eslint.config.mjs',
+      'release.config.mjs',
     ],
     languageOptions: {
       globals: globals.node,
