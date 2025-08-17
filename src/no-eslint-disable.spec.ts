@@ -1,7 +1,7 @@
 import { RuleTester } from 'eslint';
 
 import { noEslintDisable } from './no-eslint-disable';
-import { describe, it } from 'vitest';
+import { it } from 'vitest';
 
 const ruleTester = new RuleTester();
 
