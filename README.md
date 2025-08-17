@@ -2,9 +2,28 @@
 
 Disallow disable rules by `eslint-disable` comment.
 
-## Rules
+## Install
 
-`no-eslint-disable`
+```sh
+npm i -D eslint-plugin-no-eslint-disable
+```
+
+```js
+// eslint.config.js
+
+import noEslintDisable from 'eslint-plugin-no-eslint-disable';
+
+export default [
+  {
+    plugins: {
+      'no-eslint-disable': noEslintDisable,
+    },
+    rules: {
+      'no-eslint-disable/no-eslint-disable': 'error',
+    },
+  },
+];
+```
 
 ## Links
 
