@@ -1,3 +1,9 @@
+## [3.0.2](https://github.com/unlight/eslint-plugin-no-eslint-disable/compare/v3.0.1...v3.0.2) (2025-08-17)
+
+### Bug Fixes
+
+* Fix `Taskfile` build ([b7cc6ea](https://github.com/unlight/eslint-plugin-no-eslint-disable/commit/b7cc6eaf641dae85cda87b5b20c4b600b6210cae))
+
 ## [3.0.1](https://github.com/unlight/eslint-plugin-no-eslint-disable/compare/v3.0.0...v3.0.1) (2025-08-17)
 
 ### Bug Fixes
