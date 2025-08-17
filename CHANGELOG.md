@@ -1,3 +1,13 @@
+## [3.0.0](https://github.com/unlight/eslint-plugin-no-eslint-disable/compare/v2.0.0...v3.0.0) (2025-08-17)
+
+### ⚠ BREAKING CHANGES
+
+* Package is ESM only
+
+### Miscellaneous Chores
+
+* Update dependencies ([fbc3a65](https://github.com/unlight/eslint-plugin-no-eslint-disable/commit/fbc3a65d6fb950c2a6e03e2a68133603ae51f2a0)), closes [#1](https://github.com/unlight/eslint-plugin-no-eslint-disable/issues/1)
+
 ## [2.0.0](https://github.com/unlight/eslint-plugin-no-eslint-disable/compare/v1.0.1...v2.0.0) (2022-07-30)
 
 

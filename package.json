@@ -1,9 +1,12 @@
 {
   "name": "eslint-plugin-no-eslint-disable",
-  "version": "0.0.0-dev",
+  "version": "3.0.0",
   "license": "MIT",
   "description": "Disallow disable rules by `eslint-disable` comment",
-  "keywords": ["eslintplugin", "eslint-plugin"],
+  "keywords": [
+    "eslintplugin",
+    "eslint-plugin"
+  ],
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
