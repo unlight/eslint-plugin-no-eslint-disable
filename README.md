@@ -4,7 +4,7 @@ Disallow disable rules by `eslint-disable` comment.
 
 ## Rules
 
-`no-eslint-disable/no-eslint-disable`
+`no-eslint-disable`
 
 ## Links
 
@@ -14,4 +14,4 @@ Disallow disable rules by `eslint-disable` comment.
 
 ## License
 
-[MIT License](https://opensource.org/licenses/MIT) (c) 2022
+[MIT License](https://opensource.org/licenses/MIT) (c) 2025

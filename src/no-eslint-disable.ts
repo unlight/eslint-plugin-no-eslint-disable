@@ -1,10 +1,10 @@
-import { TSESTree as ESTree } from '@typescript-eslint/types';
 import { Rule } from 'eslint';
+import type * as ESTree from 'estree';
 
 const disableRegex = /eslint-disable(?:-next-line|-line)?/;
 
 function create(context: Rule.RuleContext): Rule.RuleListener {
-  const comments = context.getSourceCode().getAllComments();
+  const comments = context.sourceCode.getAllComments();
 
   for (const comment of comments) {
     const reportDescriptor = match(comment);
@@ -18,14 +18,13 @@ function create(context: Rule.RuleContext): Rule.RuleListener {
 
 function match(comment: ESTree.Comment): Rule.ReportDescriptor | undefined {
   if (disableRegex.test(comment.value)) {
-    return {
-      messageId: 'message',
-      data: <any>comment.loc.start, // eslint-disable-line
-      loc: {
-        line: 0,
-        column: 0,
-      },
+    const { start } = comment.loc || {};
+    const data: Record<string, string> = {
+      column: String(start?.column),
+      line: String(start?.line),
     };
+
+    return { data, loc: { column: 0, line: 0 }, messageId: 'message' };
   }
 }
 
@@ -36,7 +35,8 @@ export const noEslintDisable: Rule.RuleModule = {
       description: 'Disallow disable rules by `eslint-disable` comment',
     },
     messages: {
-      message: 'Disabling rules by comments is not allowed at line {{line}}:{{column}}',
+      message:
+        'Disabling rules by comments is not allowed at line {{line}}:{{column}}',
     },
   },
 };

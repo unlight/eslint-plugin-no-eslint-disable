@@ -5,8 +5,8 @@
     "transpileOnly": true
   },
   "compilerOptions": {
-    "target": "es2020",
-    "module": "commonjs",
+    "target": "es2024",
+    "module": "es6",
     "moduleResolution": "node",
     "importHelpers": true,
     "strict": true,
